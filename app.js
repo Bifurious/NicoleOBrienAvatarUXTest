@@ -2,19 +2,20 @@ const Application = PIXI.Application;
 
 (function () {
     "use strict";
-  
     const items = [
-      "7️⃣",
-      "❌",
-      "🍓",
-      "🍋",
-      "🍉",
-      "🍒",
-      "💵",
-      "🍊",
-      "🍎"
-    ];
-    console.log(items);
+        "/img/10.png",
+        "/img/9.png",
+      ];
+    // [        
+    // "❌",
+    // "🍓",
+    // "🍋",
+    // "🍉",
+    // "🍒",
+    // "💵",
+    // "🍊",
+    // "🍎"]
+
     document.querySelector(".info").textContent = items.join(" ");
   
     const doors = document.querySelectorAll(".door");
